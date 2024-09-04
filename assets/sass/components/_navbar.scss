@@ -1,0 +1,11 @@
+.logo {
+  font-style: italic;
+}
+.navbar-nav .nav-link:hover {
+  transition: all ease-in .1s;
+  text-shadow: 2px 2px 4px rgba(0, 71, 171, 0.5);
+}
+
+.navbar {
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.8);
+}

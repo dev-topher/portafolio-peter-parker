@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="es-cl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafío - Portafolio</title>
+    <!-- Css main -->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <!-- Roboto GF -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="bg-primary">
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg bg-white fixed-top">
+      <div class="container">
+        <a class="navbar-brand fs-1 text-primary logo" href="#home"
+          >PeterParker<span>🕸️</span></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link asd text-primary"
+                aria-current="page"
+                href="#home"
+                >Inicio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-primary" href="#abilities"
+                >Mis habilidades</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-primary" href="#projects">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-primary" href="#contact">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+
+    <header id="home" class="header container">
+      <div class="row">
+        <div class="col-md-6">
+          <img
+            src="./assets/img/developer.svg"
+            alt="logo image"
+            class="img-fluid"
+          />
+        </div>
+        <div class="col-md-6">
+          <h1 class="fw-bold mb-3">
+            Soy Peter Parker <span class="fs-2">🕷️</span>
+          </h1>
+          <h2 class="fw-bolder mb-3 text-shadowed rounded py-1 px-2">
+            Desarrollador FrontEnd
+          </h2>
+          <p class="mb-3">
+            Al igual que mi alter ego arácnido, tengo un sentido de
+            responsabilidad hacia la web y sus usuarios. Como desarrollador
+            frontend, tejo código con la misma destreza y precisión que
+            Spider-Man teje sus telarañas. Mi misión es crear experiencias web
+            sorprendentes que no solo cautiven a los usuarios, sino que también
+            los hagan sentir como superhéroes mientras navegan por la red.
+          </p>
+          <button class="btn btn-light text-primary fs-3 px-5 fw-bolder">
+            Contáctame
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Abilities -->
+
+    <section id="abilities" class="abilities container">
+      <h2
+        class="text-center mb-5 fs-1 text-shadowed rounded py-1 px-2 fw-bolder"
+      >
+        Mis habilidades 🕸️
+      </h2>
+      <div class="row mt-5">
+        <!-- ITEM -->
+
+        <div class="col-6 col-xl-1">
+          <div
+            class="item-skill d-flex align-items-center bg-white rounded h-100 py-1 px-1"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 452 520"
+              width="32"
+              height="32"
+            >
+              <path fill="#e34f26" d="M41 460L0 0h451l-41 460-185 52" />
+              <path fill="#ef652a" d="M226 472l149-41 35-394H226" />
+              <path
+                fill="#ecedee"
+                d="M226 208h-75l-5-58h80V94H84l15 171h127zm0 147l-64-17-4-45h-56l7 89 117 32z"
+              />
+              <path
+                fill="#fff"
+                d="M226 265h69l-7 73-62 17v59l115-32 16-174H226zm0-171v56h136l5-56z"
+              />
+            </svg>
+
+            <p class="text-primary ml-2 fw-semibold">HTML</p>
+          </div>
+        </div>
+
+        <!-- ITEM -->
+
+        <div class="col-6 col-xl-1">
+          <div
+            class="item-skill d-flex align-items-center bg-white rounded h-100 py-1 px-1"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 452 520"
+              width="32"
+              height="32"
+            >
+              <path fill="#0c73b8" d="M41 460L0 0h451l-41 460-185 52" />
+              <path fill="#30a9dc" d="M226 472l149-41 35-394H226" />
+              <path
+                fill="#ecedee"
+                d="M226 208H94l5 57h127zm0-114H84l5 56h137zm0 261l-124-33 7 60 117 32z"
+              />
+              <path
+                fill="#fff"
+                d="M226 265h69l-7 73-62 17v59l115-32 26-288H226v56h80l-6 58h-74z"
+              />
+            </svg>
+
+            <p class="text-primary ml-2 fw-semibold">CSS</p>
+          </div>
+        </div>
+
+        <!-- ITEM -->
+
+        <div class="col-6 col-xl-1">
+          <div
+            class="item-skill d-flex align-items-center bg-white rounded h-100 py-1 px-1"
+          >
+            <svg
+              viewBox="0 0 512 384"
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+            >
+              <path
+                fill="#CF649A"
+                d="M441 221c-18 0-34 4-47 10-5-9-9-17-10-24s-2-11-1-20 6-21 6-22c0 0-1-5-11-5-11 0-20 2-21 5l-4 15c-2 9-20 43-31 60-4-7-7-13-7-17-1-8-2-12-1-21s6-20 6-21-1-6-11-6c-11 0-20 2-21 5l-4 15-34 76-8 18c-2 4 0 0 0 1l-3 5-4 5s-1-7 1-16c3-19 12-49 12-51 0 0 2-5-6-8-7-3-9 2-10 2l-1 1s8-34-16-34c-14 0-35 17-45 31l-34 19-17 9-1-1c-29-31-82-52-79-93 0-15 6-54 101-102 79-39 141-28 152-4 16 34-33 97-115 106-31 3-47-9-51-13-4-5-5-5-7-4s-1 5 0 8c3 6 13 17 30 23 15 5 51 8 95-9 49-19 88-72 77-117-12-45-87-60-157-35-43 15-88 39-121 70-39 36-45 68-43 81 10 47 74 78 100 100l-3 2c-13 7-63 33-75 60-14 31 2 53 13 56 33 10 68-7 86-34 18-28 16-64 8-80l-1-1 11-6 18-10c-3 9-5 19-6 34-2 17 6 40 15 49 4 4 9 4 12 4 11 0 16-9 22-20l13-28s-8 41 13 41c7 0 15-9 18-14l1-1 1-2 20-37 25-57 5 20c2 8 7 16 10 24l-4 7-8 10c-10 12-23 26-24 30-2 5-2 8 2 11 3 2 8 2 13 2l18-4 17-9c10-7 16-18 15-32 0-7-3-15-6-22l3-4c16-23 28-49 28-49l5 21 9 20a89 89 0 0 0-27 36c-6 17-2 24 7 26 4 1 10-1 14-3 5-1 11-4 17-8 10-8 20-18 19-32 0-6-2-13-4-19 12-5 29-8 49-5 45 5 54 33 52 44-2 12-11 18-14 20l-4 4c1 2 2 2 5 2 3-1 23-10 24-31 1-28-25-58-71-57zM97 336c-14 16-35 23-44 17-9-5-6-29 13-46 11-10 25-20 34-26l9-5 1-1 3-1c6 24 0 45-16 62zm108-73c-5 13-16 45-22 43-6-1-9-26-2-50 4-12 13-26 18-32 8-9 17-12 19-8 3 5-10 39-13 47zm89 43-5 1v-2l16-17 9-11v1c0 14-14 24-20 28zm68-16c-2-1-1-5 4-16 2-5 7-13 15-20l2 9c0 18-13 24-21 27z"
+              />
+            </svg>
+
+            <p class="text-primary ml-2 fw-semibold">Sass</p>
+          </div>
+        </div>
+
+        <!-- ITEM -->
+
+        <div class="col-6 col-xl-1">
+          <div
+            class="item-skill d-flex align-items-center bg-white rounded h-100 py-1 px-1"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              preserveAspectRatio="xMidYMid"
+              viewBox="0 0 256 256"
+              width="32"
+              height="32"
+            >
+              <path
+                d="M251.17 116.6 139.4 4.82a16.49 16.49 0 0 0-23.31 0l-23.21 23.2 29.44 29.45a19.57 19.57 0 0 1 24.8 24.96l28.37 28.38a19.61 19.61 0 1 1-11.75 11.06L137.28 95.4v69.64a19.62 19.62 0 1 1-16.13-.57V94.2a19.61 19.61 0 0 1-10.65-25.73L81.46 39.44 4.83 116.08a16.49 16.49 0 0 0 0 23.32L116.6 251.17a16.49 16.49 0 0 0 23.32 0l111.25-111.25a16.5 16.5 0 0 0 0-23.33"
+                fill="#DE4C36"
+              />
+            </svg>
+
+            <p class="text-primary ml-2 fw-semibold">Git</p>
+          </div>
+        </div>
+
+        <!-- ITEM -->
+
+        <div class="col-6 col-xl-1">
+          <div
+            class="item-skill d-flex align-items-center bg-white rounded h-100 py-1 px-1"
+          >
+            <svg
+              viewBox="0 0 256 250"
+              width="32"
+              height="32"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+              preserveAspectRatio="xMidYMid"
+            >
+              <path
+                d="M128.001 0C57.317 0 0 57.307 0 128.001c0 56.554 36.676 104.535 87.535 121.46 6.397 1.185 8.746-2.777 8.746-6.158 0-3.052-.12-13.135-.174-23.83-35.61 7.742-43.124-15.103-43.124-15.103-5.823-14.795-14.213-18.73-14.213-18.73-11.613-7.944.876-7.78.876-7.78 12.853.902 19.621 13.19 19.621 13.19 11.417 19.568 29.945 13.911 37.249 10.64 1.149-8.272 4.466-13.92 8.127-17.116-28.431-3.236-58.318-14.212-58.318-63.258 0-13.975 5-25.394 13.188-34.358-1.329-3.224-5.71-16.242 1.24-33.874 0 0 10.749-3.44 35.21 13.121 10.21-2.836 21.16-4.258 32.038-4.307 10.878.049 21.837 1.47 32.066 4.307 24.431-16.56 35.165-13.12 35.165-13.12 6.967 17.63 2.584 30.65 1.255 33.873 8.207 8.964 13.173 20.383 13.173 34.358 0 49.163-29.944 59.988-58.447 63.157 4.591 3.972 8.682 11.762 8.682 23.704 0 17.126-.148 30.91-.148 35.126 0 3.407 2.304 7.398 8.792 6.14C219.37 232.5 256 184.537 256 128.002 256 57.307 198.691 0 128.001 0Zm-80.06 182.34c-.282.636-1.283.827-2.194.39-.929-.417-1.45-1.284-1.15-1.922.276-.655 1.279-.838 2.205-.399.93.418 1.46 1.293 1.139 1.931Zm6.296 5.618c-.61.566-1.804.303-2.614-.591-.837-.892-.994-2.086-.375-2.66.63-.566 1.787-.301 2.626.591.838.903 1 2.088.363 2.66Zm4.32 7.188c-.785.545-2.067.034-2.86-1.104-.784-1.138-.784-2.503.017-3.05.795-.547 2.058-.055 2.861 1.075.782 1.157.782 2.522-.019 3.08Zm7.304 8.325c-.701.774-2.196.566-3.29-.49-1.119-1.032-1.43-2.496-.726-3.27.71-.776 2.213-.558 3.315.49 1.11 1.03 1.45 2.505.701 3.27Zm9.442 2.81c-.31 1.003-1.75 1.459-3.199 1.033-1.448-.439-2.395-1.613-2.103-2.626.301-1.01 1.747-1.484 3.207-1.028 1.446.436 2.396 1.602 2.095 2.622Zm10.744 1.193c.036 1.055-1.193 1.93-2.715 1.95-1.53.034-2.769-.82-2.786-1.86 0-1.065 1.202-1.932 2.733-1.958 1.522-.03 2.768.818 2.768 1.868Zm10.555-.405c.182 1.03-.875 2.088-2.387 2.37-1.485.271-2.861-.365-3.05-1.386-.184-1.056.893-2.114 2.376-2.387 1.514-.263 2.868.356 3.061 1.403Z"
+              />
+            </svg>
+
+            <p class="text-primary ml-2 fw-semibold">GitHub</p>
+          </div>
+        </div>
+
+        <!-- ITEM -->
+
+        <div class="col-6 col-xl-1">
+          <div
+            class="item-skill d-flex align-items-center bg-white rounded h-100 py-1 px-1"
+          >
+            <svg
+              viewBox="0 0 256 204"
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              preserveAspectRatio="xMidYMid"
+            >
+              <path
+                fill="#7E13F8"
+                d="M53.172 0C38.565 0 27.756 12.785 28.24 26.65c.465 13.32-.139 30.573-4.482 44.642C19.402 85.402 12.034 94.34 0 95.488v12.956c12.034 1.148 19.402 10.086 23.758 24.197 4.343 14.069 4.947 31.32 4.482 44.641-.484 13.863 10.325 26.65 24.934 26.65h149.673c14.608 0 25.414-12.785 24.93-26.65-.464-13.32.139-30.572 4.482-44.641 4.359-14.11 11.707-23.05 23.741-24.197V95.488c-12.034-1.148-19.382-10.086-23.74-24.196-4.344-14.067-4.947-31.321-4.483-44.642C228.261 12.787 217.455 0 202.847 0H53.17h.002ZM173.56 125.533c0 19.092-14.24 30.67-37.872 30.67h-40.23a4.339 4.339 0 0 1-4.338-4.339V52.068a4.339 4.339 0 0 1 4.339-4.34h39.999c19.705 0 32.637 10.675 32.637 27.063 0 11.503-8.7 21.801-19.783 23.604v.601c15.089 1.655 25.248 12.104 25.248 26.537Zm-42.26-64.05h-22.937v32.4h19.32c14.934 0 23.17-6.014 23.17-16.764 0-10.073-7.082-15.636-19.552-15.636Zm-22.937 45.256v35.705h23.782c15.548 0 23.786-6.239 23.786-17.965 0-11.728-8.467-17.742-24.786-17.742h-22.782v.002Z"
+              />
+            </svg>
+
+            <p class="text-primary ml-2 fw-semibold">Bootstrap</p>
+          </div>
+        </div>
+        <!-- ITEM -->
+
+        <div class="col-6 col-xl-1">
+          <div
+            class="item-skill d-flex align-items-center bg-white rounded h-100 py-1 px-1"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              viewBox="0 0 1052 1052"
+            >
+              <path fill="#f0db4f" d="M0 0h1052v1052H0z" />
+              <path
+                d="M965.9 801.1c-7.7-48-39-88.3-131.7-125.9-32.2-14.8-68.1-25.399-78.8-49.8-3.8-14.2-4.3-22.2-1.9-30.8 6.9-27.9 40.2-36.6 66.6-28.6 17 5.7 33.1 18.801 42.8 39.7 45.4-29.399 45.3-29.2 77-49.399-11.6-18-17.8-26.301-25.4-34-27.3-30.5-64.5-46.2-124-45-10.3 1.3-20.699 2.699-31 4-29.699 7.5-58 23.1-74.6 44-49.8 56.5-35.6 155.399 25 196.1 59.7 44.8 147.4 55 158.6 96.9 10.9 51.3-37.699 67.899-86 62-35.6-7.4-55.399-25.5-76.8-58.4-39.399 22.8-39.399 22.8-79.899 46.1 9.6 21 19.699 30.5 35.8 48.7 76.2 77.3 266.899 73.5 301.1-43.5 1.399-4.001 10.6-30.801 3.199-72.101zm-394-317.6h-98.4c0 85-.399 169.4-.399 254.4 0 54.1 2.8 103.7-6 118.9-14.4 29.899-51.7 26.2-68.7 20.399-17.3-8.5-26.1-20.6-36.3-37.699-2.8-4.9-4.9-8.7-5.601-9-26.699 16.3-53.3 32.699-80 49 13.301 27.3 32.9 51 58 66.399 37.5 22.5 87.9 29.4 140.601 17.3 34.3-10 63.899-30.699 79.399-62.199 22.4-41.3 17.6-91.3 17.4-146.6.5-90.2 0-180.4 0-270.9z"
+                fill="#323330"
+              />
+            </svg>
+
+            <p class="text-primary ml-2 fw-semibold">JavaScript</p>
+          </div>
+        </div>
+        <!-- ITEM -->
+
+        <div class="col-6 col-xl-1">
+          <div
+            class="item-skill d-flex align-items-center bg-white rounded h-100 py-1 px-1"
+          >
+            <svg
+              viewBox="0 0 256 221"
+              width="32"
+              height="32"
+              xmlns="http://www.w3.org/2000/svg"
+              preserveAspectRatio="xMidYMid"
+            >
+              <path
+                d="M204.8 0H256L128 220.8 0 0h97.92L128 51.2 157.44 0h47.36Z"
+                fill="#41B883"
+              />
+              <path
+                d="m0 0 128 220.8L256 0h-51.2L128 132.48 50.56 0H0Z"
+                fill="#41B883"
+              />
+              <path
+                d="M50.56 0 128 133.12 204.8 0h-47.36L128 51.2 97.92 0H50.56Z"
+                fill="#35495E"
+              />
+            </svg>
+
+            <p class="text-primary ml-2 fw-semibold">Vue</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="projects container">
+      <h2
+        class="text-center mb-5 fs-1 text-shadowed rounded py-1 px-2 fw-bolder"
+      >
+        Mis Proyectos 📒
+      </h2>
+      <div class="row">
+        <!-- Project Item -->
+        <div class="col-12 col-md-6 col-lg-3">
+          <img
+            src="./assets/img/meetcoffee.png"
+            alt="meet coffee image"
+            class="mb-4 border box-shadow"
+          />
+          <h3 class="text-shadowed fs-4 py-1 px-2 rounded">Meet & Coffee</h3>
+        </div>
+        <!-- Project Item -->
+        <div class="col-12 col-md-6 col-lg-3">
+          <img
+            src="./assets/img/meetcoffee.png"
+            alt="meet coffee image"
+            class="mb-4 border box-shadow"
+          />
+          <h3 class="text-shadowed fs-4 py-1 px-2 rounded">Meet & Coffee</h3>
+        </div>
+        <!-- Project Item -->
+        <div class="col-12 col-md-6 col-lg-3">
+          <img
+            src="./assets/img/meetcoffee.png"
+            alt="meet coffee image"
+            class="mb-4 border box-shadow"
+          />
+          <h3 class="text-shadowed fs-4 py-1 px-2 rounded">Meet & Coffee</h3>
+        </div>
+        <!-- Project Item -->
+        <div class="col-12 col-md-6 col-lg-3">
+          <img
+            src="./assets/img/meetcoffee.png"
+            alt="meet coffee image"
+            class="mb-4 border box-shadow"
+          />
+          <h3 class="text-shadowed fs-4 py-1 px-2 rounded">Meet & Coffee</h3>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="contact container mb-5">
+      <h2
+        class="text-center mb-5 fs-1 text-shadowed rounded py-1 px-2 fw-bolder"
+      >
+        Contacto 📧
+      </h2>
+      <div class="row">
+        <div class="col-12 col-lg-6 mb-5">
+          <form class="bg-white p-4 box-shadow rounded">
+            <div class="mb-3">
+              <input
+                type="text"
+                class="form-control mb-3 fs-4"
+                id="name"
+                aria-describedby="nameHelp"
+                placeholder="Nombre"
+              />
+              <input
+                type="text"
+                class="form-control mb-3 fs-4"
+                id="lastName"
+                aria-describedby="lastNameHelp"
+                placeholder="Apellido"
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                type="email"
+                class="form-control fs-4"
+                id="email"
+                placeholder="Tu Email"
+              />
+            </div>
+            <div class="mb-3">
+              <textarea
+                class="form-control fs-4"
+                id="textArea"
+                rows="4"
+              ></textarea>
+            </div>
+            <button
+              type="submit"
+              class="btn btn-secondary text-white shadow-lg fs-4 px-5"
+            >
+              Enviar
+            </button>
+          </form>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="bg-white p-4 box-shadow rounded">
+            <div class="contact--item">
+              <i class="fa-solid fa-phone text-secondary"></i>
+              <p class="text-secondary">+56 9 99887766</p>
+            </div>
+            <div class="contact--item">
+              <i class="fa-solid fa-envelope text-secondary"></i>
+              <p class="text-secondary">
+                spiderman<span class="text-primary">@</span>avengers.com
+              </p>
+            </div>
+            <div class="contact--item">
+              <i class="fa-brands fa-linkedin text-secondary"></i>
+              <p class="text-secondary">
+                https://www.linkedin.com/in/peter-parker-2a700a170/
+              </p>
+            </div>
+            <div class="contact--item">
+              <i class="fa-brands fa-github text-secondary"></i>
+              <p class="text-secondary">
+                https://github.com/spiderman-your-neighbourhood
+              </p>
+            </div>
+            <div class="contact--item">
+              <i class="fa-brands fa-square-instagram text-secondary"> </i>
+              <p class="text-secondary">https://www.instagram.com/spiderman/</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

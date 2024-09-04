@@ -1,0 +1,15 @@
+.input-form {
+  margin-bottom: 1rem;
+}
+
+.contact--item {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin: 1rem auto;
+
+  & p {
+    margin-left: 1rem;
+  }
+
+}

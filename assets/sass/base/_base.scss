@@ -1,0 +1,79 @@
+@use './typography';
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  text-wrap: pretty;
+  font-family: typography.$roboto;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+img {
+  width: 100%;
+}
+
+.active {
+  background-color: white;
+}
+
+.row {
+  width: 100%;
+}
+
+@mixin box-shadow {
+  box-shadow: 3px 4px 11px rgba(0, 0, 0, 0.75);
+}
+
+.btn {
+  @include box-shadow;
+}
+
+.box-shadow {
+  @include box-shadow;
+}
+
+h2.text-shadowed {
+  @include box-shadow;
+  color: #0047ab;
+  background-color: white;
+  display: inline-block;
+}
+
+h3.text-shadowed {
+  @include box-shadow;
+  color: white;
+  background-color: #0047ab;
+  display: inline-block;
+}
+
+.form-control {
+  margin: auto;
+  // width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+p {
+  line-height: 2.6rem;
+}
+
+li {
+  list-style: none;
+}
